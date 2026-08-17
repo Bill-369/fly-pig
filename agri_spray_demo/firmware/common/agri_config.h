@@ -1,0 +1,23 @@
+#ifndef AGRI_CONFIG_H
+#define AGRI_CONFIG_H
+
+/* DEMO CONFIGURATION: not an agricultural standard or field calibration. */
+#define AGRI_BATTERY_TRIP_PERCENT       20.0f
+#define AGRI_BATTERY_RECOVER_PERCENT    25.0f
+#define AGRI_LIQUID_TRIP_PERCENT        15.0f
+#define AGRI_LIQUID_RECOVER_PERCENT     20.0f
+#define AGRI_ALTITUDE_LOW_TRIP_M         1.5f
+#define AGRI_ALTITUDE_LOW_RECOVER_M      1.7f
+#define AGRI_ALTITUDE_HIGH_TRIP_M        3.5f
+#define AGRI_ALTITUDE_HIGH_RECOVER_M     3.3f
+
+#define AGRI_SENSOR_PERCENT_MIN         0.0f
+#define AGRI_SENSOR_PERCENT_MAX       100.0f
+#define AGRI_SENSOR_ALTITUDE_MIN_M      0.0f
+#define AGRI_SENSOR_ALTITUDE_MAX_M      5.0f
+#define AGRI_DEFAULT_SPRAY_PWM_PERCENT 70u
+
+#define AGRI_SIM_ADC_MAX_COUNTS       4095u
+#define AGRI_SIM_ALTITUDE_FULL_SCALE_M 5.0f
+
+#endif
